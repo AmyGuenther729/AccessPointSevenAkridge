@@ -1,0 +1,15 @@
+x, y, z = "Red", "Blue", "Yellow"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Black"
+print(x)
+print(y)
+print(z)
+
+colors = ["Red", "Blue", "Yellow"]
+x, y, z = colors
+print(x)
+print(y)
+print(z)
