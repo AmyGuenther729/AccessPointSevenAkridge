@@ -1,0 +1,20 @@
+x = "Python is swag"
+print(x)
+
+x = "Python"
+y = "is"
+z = "swag"
+print(x,y,z)
+
+x = "Python " #mind space usage in between variables 
+y = "is "
+z = "swag"
+print(x + y + z)
+
+x = 7
+y = 7
+print(x + y) 
+#can't do math with strings btw
+x = 7
+y = "swag"
+print(x, y)
