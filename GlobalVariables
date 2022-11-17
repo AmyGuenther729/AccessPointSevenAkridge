@@ -1,0 +1,24 @@
+x = "swag"
+def myfunc():
+  print("Python is " + x)
+myfunc()
+
+x = "swag"   #global variable
+def myfunc():
+  x = "epic"    #local variable
+  print("Python is " + x)
+myfunc()
+print("Python is " + x)
+
+def myfunc():
+  global x
+  x = "epic"
+myfunc()
+print("Python is " + x)
+
+x = "swag"
+def myfunc():
+  global x
+  x = "epic"
+myfunc()
+print("Python is " + x)
