@@ -1,0 +1,53 @@
+x = 5    # int
+y = 5.2  # float
+z = 1j   # complex
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 5
+y = 55555555555
+z = -55
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 5.555
+y = 55.5
+z = -55.55
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 55e5
+y = 555E5
+z = -55.5e555
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 55+5j
+y = 5j
+z = -5j
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = 5    #int 
+y = 5.5  #float
+z = 5j   #complex
+
+a = float(x)   # int to float
+b = int(y)    # float to int
+c = complex(x)  #int to complex
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+import random
+print(random.randrange(1,10))
